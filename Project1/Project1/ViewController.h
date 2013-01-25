@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *ProjLabel;
+}
+
+-(IBAction)pressButton;
 
 @end
