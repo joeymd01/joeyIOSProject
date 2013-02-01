@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Joey Dennehy. All rights reserved.
 //
 
+// good job, 100%
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -42,7 +44,7 @@ int pressCount = 1;
     }
     if(pressCount % 4 == 0)
     {
-        ProjLabel.text = @"I'm calling UI protective services";
+        ProjLabel.text = @"I'm telling my mom";
     }
 }
 
