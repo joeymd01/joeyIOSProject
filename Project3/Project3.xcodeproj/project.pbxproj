@@ -27,9 +27,9 @@
 		434ADE0016BED4AF00415357 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 434ADDFE16BED4AF00415357 /* InfoPlist.strings */; };
 		434ADE0316BED4AF00415357 /* Project3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 434ADE0216BED4AF00415357 /* Project3Tests.m */; };
 		434ADE6D16BEE4E500415357 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434ADE6C16BEE4E500415357 /* ButtonViewController.m */; };
-		4398786116C0AF17000BE7DC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4398785C16C0AF17000BE7DC /* RootViewController.m */; };
-		4398786216C0AF17000BE7DC /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4398785E16C0AF17000BE7DC /* DataViewController.m */; };
-		4398786316C0AF17000BE7DC /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4398786016C0AF17000BE7DC /* ModelController.m */; };
+		434BCF3216C0BB0B0080E410 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434BCF2D16C0BB0B0080E410 /* DataViewController.m */; };
+		434BCF3316C0BB0B0080E410 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434BCF2F16C0BB0B0080E410 /* ModelController.m */; };
+		434BCF3416C0BB0B0080E410 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434BCF3116C0BB0B0080E410 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +69,12 @@
 		434ADE0216BED4AF00415357 /* Project3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project3Tests.m; sourceTree = "<group>"; };
 		434ADE6B16BEE4E500415357 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonViewController.h; path = ../ButtonViewController.h; sourceTree = "<group>"; };
 		434ADE6C16BEE4E500415357 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonViewController.m; path = ../ButtonViewController.m; sourceTree = "<group>"; };
-		4398785B16C0AF17000BE7DC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../../../test2/test2/RootViewController.h; sourceTree = "<group>"; };
-		4398785C16C0AF17000BE7DC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../../../test2/test2/RootViewController.m; sourceTree = "<group>"; };
-		4398785D16C0AF17000BE7DC /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataViewController.h; path = ../../../test2/test2/DataViewController.h; sourceTree = "<group>"; };
-		4398785E16C0AF17000BE7DC /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataViewController.m; path = ../../../test2/test2/DataViewController.m; sourceTree = "<group>"; };
-		4398785F16C0AF17000BE7DC /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelController.h; path = ../../../test2/test2/ModelController.h; sourceTree = "<group>"; };
-		4398786016C0AF17000BE7DC /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelController.m; path = ../../../test2/test2/ModelController.m; sourceTree = "<group>"; };
+		434BCF2C16C0BB0B0080E410 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		434BCF2D16C0BB0B0080E410 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		434BCF2E16C0BB0B0080E410 /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		434BCF2F16C0BB0B0080E410 /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		434BCF3016C0BB0B0080E410 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		434BCF3116C0BB0B0080E410 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,13 +137,13 @@
 		434ADDD016BED4AF00415357 /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
-				4398785B16C0AF17000BE7DC /* RootViewController.h */,
-				4398785C16C0AF17000BE7DC /* RootViewController.m */,
-				4398785D16C0AF17000BE7DC /* DataViewController.h */,
-				4398785E16C0AF17000BE7DC /* DataViewController.m */,
-				4398785F16C0AF17000BE7DC /* ModelController.h */,
-				4398786016C0AF17000BE7DC /* ModelController.m */,
 				434ADE6B16BEE4E500415357 /* ButtonViewController.h */,
+				434BCF2C16C0BB0B0080E410 /* DataViewController.h */,
+				434BCF2D16C0BB0B0080E410 /* DataViewController.m */,
+				434BCF2E16C0BB0B0080E410 /* ModelController.h */,
+				434BCF2F16C0BB0B0080E410 /* ModelController.m */,
+				434BCF3016C0BB0B0080E410 /* RootViewController.h */,
+				434BCF3116C0BB0B0080E410 /* RootViewController.m */,
 				434ADE6C16BEE4E500415357 /* ButtonViewController.m */,
 				434ADDD916BED4AF00415357 /* AppDelegate.h */,
 				434ADDDA16BED4AF00415357 /* AppDelegate.m */,
@@ -304,6 +304,9 @@
 				434ADDE716BED4AF00415357 /* Project3.xcdatamodeld in Sources */,
 				434ADDED16BED4AF00415357 /* DetailViewController.m in Sources */,
 				434ADE6D16BEE4E500415357 /* ButtonViewController.m in Sources */,
+				434BCF3216C0BB0B0080E410 /* DataViewController.m in Sources */,
+				434BCF3316C0BB0B0080E410 /* ModelController.m in Sources */,
+				434BCF3416C0BB0B0080E410 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,9 +315,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				434ADE0316BED4AF00415357 /* Project3Tests.m in Sources */,
-				4398786116C0AF17000BE7DC /* RootViewController.m in Sources */,
-				4398786216C0AF17000BE7DC /* DataViewController.m in Sources */,
-				4398786316C0AF17000BE7DC /* ModelController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
