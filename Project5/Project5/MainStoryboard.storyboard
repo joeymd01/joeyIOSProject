@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3103" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="WJViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="GcK-Cc-tHC">
+                                <color key="color" red="0.25098039220000001" green="0.63137254899999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <pickerView contentMode="scaleToFill" restorationIdentifier="types" translatesAutoresizingMaskIntoConstraints="NO" id="hqu-WH-aCg">
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="Eme-yK-R06"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="xDE-3q-FbH"/>
+                                    <outlet property="delegate" destination="2" id="e9Q-ZT-xWh"/>
+                                </connections>
+                            </pickerView>
+                            <pickerView contentMode="scaleToFill" restorationIdentifier="dates" translatesAutoresizingMaskIntoConstraints="NO" id="49J-8f-0ay">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="4JR-B9-TsE"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="yQj-QN-BX5"/>
+                                    <outlet property="delegate" destination="2" id="ejJ-tP-Iky"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="49J-8f-0ay" firstAttribute="centerX" secondItem="GcK-Cc-tHC" secondAttribute="centerX" type="default" id="0uV-Y5-kHW"/>
+                            <constraint firstItem="49J-8f-0ay" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="N8K-u6-zbS"/>
+                            <constraint firstItem="hqu-WH-aCg" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Thk-vc-eGF"/>
+                            <constraint firstItem="hqu-WH-aCg" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="XDa-Ve-dJk"/>
+                            <constraint firstItem="GcK-Cc-tHC" firstAttribute="centerY" secondItem="3" secondAttribute="centerY" type="default" id="aN7-bQ-l3w"/>
+                            <constraint firstItem="49J-8f-0ay" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="eXT-Lq-CoV"/>
+                            <constraint firstItem="hqu-WH-aCg" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="ijT-v2-Eii"/>
+                            <constraint firstItem="49J-8f-0ay" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="taG-n8-KbI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="49J-8f-0ay" id="gic-wP-8RM"/>
+                        <outlet property="spinner" destination="GcK-Cc-tHC" id="fMq-xw-lw0"/>
+                        <outlet property="typePicker" destination="hqu-WH-aCg" id="Hus-T4-8YY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="WJViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WJViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="spinner" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="typePicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
