@@ -6,6 +6,9 @@
 //  Copyright (c) 2013 Joey Dennehy. All rights reserved.
 //
 
+// Mostly there, 90%. You were supposed to select a single row per column, but this
+// code selects a single column per row. The implementation is fairly different.
+
 #import "ViewController.h"
 #import "CellView.h"
 
