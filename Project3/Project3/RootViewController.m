@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Joey Dennehy. All rights reserved.
 //
 
+// Good job, 100%.
+
 #import "RootViewController.h"
 
 #import "ModelController.h"
