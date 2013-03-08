@@ -6,6 +6,10 @@
 //  Copyright (c) 2013 General UI, LLC. All rights reserved.
 //
 
+// Good job, except dataWithContentsOfURL is a blocking call and should be performed
+// in the background (inside refreshWeather). Call [picker reloadAllComponents] when it's done.
+// And then display the weather prediction in a text view... 85%.
+
 #import "WJViewController.h"
 
 static NSString* const kServerAddress = @"https://weatherparser.herokuapp.com";
