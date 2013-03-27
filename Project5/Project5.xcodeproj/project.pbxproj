@@ -23,6 +23,19 @@
 		434A0B5E16DF3F0C00EB439B /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5616DF3AE000EB439B /* WJAppDelegate.m */; };
 		434A0B5F16DF3F1200EB439B /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5916DF3AE000EB439B /* WJViewController.m */; };
 		434A0B6016DF3F3100EB439B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */; };
+		43DDF70716FE31FD004F15F7 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DDF70616FE31FD004F15F7 /* CellView.m */; };
+		43DDF71316FF8C66004F15F7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DDF71216FF8C66004F15F7 /* MainViewController.m */; };
+		43DDF71516FFB3F2004F15F7 /* partly-cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71416FFB3F2004F15F7 /* partly-cloudy.png */; };
+		43DDF71716FFB402004F15F7 /* rainy.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71616FFB402004F15F7 /* rainy.png */; };
+		43DDF71916FFB40D004F15F7 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71816FFB40D004F15F7 /* snow.png */; };
+		43DDF71B16FFB418004F15F7 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71A16FFB418004F15F7 /* sunny.png */; };
+		43DDF71D16FFB922004F15F7 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71C16FFB922004F15F7 /* cloudy.png */; };
+		43DDF71F1701F38C004F15F7 /* sunny@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71E1701F38C004F15F7 /* sunny@2x.png */; };
+		43DDF7211701F3C8004F15F7 /* cloudy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF7201701F3C7004F15F7 /* cloudy@2x.png */; };
+		43DDF7231701F3EE004F15F7 /* partly-cloudy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF7221701F3EE004F15F7 /* partly-cloudy@2x.png */; };
+		43DDF72A170233B8004F15F7 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF728170233B8004F15F7 /* arrow_right.png */; };
+		43DDF72B170233B8004F15F7 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF729170233B8004F15F7 /* arrow_left.png */; };
+		43DDF72E17025339004F15F7 /* dayOfWeekController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DDF72D17025338004F15F7 /* dayOfWeekController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,22 @@
 		434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		434A0B5816DF3AE000EB439B /* WJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
 		434A0B5916DF3AE000EB439B /* WJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
+		43DDF70516FE31FD004F15F7 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		43DDF70616FE31FD004F15F7 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		43DDF71116FF8C66004F15F7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		43DDF71216FF8C66004F15F7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		43DDF71416FFB3F2004F15F7 /* partly-cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy.png"; sourceTree = "<group>"; };
+		43DDF71616FFB402004F15F7 /* rainy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rainy.png; sourceTree = "<group>"; };
+		43DDF71816FFB40D004F15F7 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		43DDF71A16FFB418004F15F7 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		43DDF71C16FFB922004F15F7 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		43DDF71E1701F38C004F15F7 /* sunny@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sunny@2x.png"; sourceTree = "<group>"; };
+		43DDF7201701F3C7004F15F7 /* cloudy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudy@2x.png"; sourceTree = "<group>"; };
+		43DDF7221701F3EE004F15F7 /* partly-cloudy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy@2x.png"; sourceTree = "<group>"; };
+		43DDF728170233B8004F15F7 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		43DDF729170233B8004F15F7 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		43DDF72C17025338004F15F7 /* dayOfWeekController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dayOfWeekController.h; sourceTree = "<group>"; };
+		43DDF72D17025338004F15F7 /* dayOfWeekController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dayOfWeekController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +138,15 @@
 		434A0B2216DF3A9400EB439B /* Project5 */ = {
 			isa = PBXGroup;
 			children = (
+				43DDF70516FE31FD004F15F7 /* CellView.h */,
+				43DDF70616FE31FD004F15F7 /* CellView.m */,
 				434A0B5516DF3AE000EB439B /* WJAppDelegate.h */,
 				434A0B5616DF3AE000EB439B /* WJAppDelegate.m */,
 				434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */,
+				43DDF72C17025338004F15F7 /* dayOfWeekController.h */,
+				43DDF72D17025338004F15F7 /* dayOfWeekController.m */,
+				43DDF71116FF8C66004F15F7 /* MainViewController.h */,
+				43DDF71216FF8C66004F15F7 /* MainViewController.m */,
 				434A0B5816DF3AE000EB439B /* WJViewController.h */,
 				434A0B5916DF3AE000EB439B /* WJViewController.m */,
 				434A0B2316DF3A9400EB439B /* Supporting Files */,
@@ -122,6 +157,16 @@
 		434A0B2316DF3A9400EB439B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				43DDF728170233B8004F15F7 /* arrow_right.png */,
+				43DDF729170233B8004F15F7 /* arrow_left.png */,
+				43DDF7221701F3EE004F15F7 /* partly-cloudy@2x.png */,
+				43DDF7201701F3C7004F15F7 /* cloudy@2x.png */,
+				43DDF71E1701F38C004F15F7 /* sunny@2x.png */,
+				43DDF71C16FFB922004F15F7 /* cloudy.png */,
+				43DDF71A16FFB418004F15F7 /* sunny.png */,
+				43DDF71816FFB40D004F15F7 /* snow.png */,
+				43DDF71616FFB402004F15F7 /* rainy.png */,
+				43DDF71416FFB3F2004F15F7 /* partly-cloudy.png */,
 				434A0B2416DF3A9400EB439B /* Project5-Info.plist */,
 				434A0B2516DF3A9400EB439B /* InfoPlist.strings */,
 				434A0B2816DF3A9400EB439B /* main.m */,
@@ -209,6 +254,16 @@
 				434A0B3116DF3A9400EB439B /* Default@2x.png in Resources */,
 				434A0B3316DF3A9400EB439B /* Default-568h@2x.png in Resources */,
 				434A0B6016DF3F3100EB439B /* MainStoryboard.storyboard in Resources */,
+				43DDF71516FFB3F2004F15F7 /* partly-cloudy.png in Resources */,
+				43DDF71716FFB402004F15F7 /* rainy.png in Resources */,
+				43DDF71916FFB40D004F15F7 /* snow.png in Resources */,
+				43DDF71B16FFB418004F15F7 /* sunny.png in Resources */,
+				43DDF71D16FFB922004F15F7 /* cloudy.png in Resources */,
+				43DDF71F1701F38C004F15F7 /* sunny@2x.png in Resources */,
+				43DDF7211701F3C8004F15F7 /* cloudy@2x.png in Resources */,
+				43DDF7231701F3EE004F15F7 /* partly-cloudy@2x.png in Resources */,
+				43DDF72A170233B8004F15F7 /* arrow_right.png in Resources */,
+				43DDF72B170233B8004F15F7 /* arrow_left.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +301,9 @@
 				434A0B2916DF3A9400EB439B /* main.m in Sources */,
 				434A0B5E16DF3F0C00EB439B /* WJAppDelegate.m in Sources */,
 				434A0B5F16DF3F1200EB439B /* WJViewController.m in Sources */,
+				43DDF70716FE31FD004F15F7 /* CellView.m in Sources */,
+				43DDF71316FF8C66004F15F7 /* MainViewController.m in Sources */,
+				43DDF72E17025339004F15F7 /* dayOfWeekController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +465,7 @@
 				434A0B5116DF3A9500EB439B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		434A0B5216DF3A9500EB439B /* Build configuration list for PBXNativeTarget "Project5Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +474,7 @@
 				434A0B5416DF3A9500EB439B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

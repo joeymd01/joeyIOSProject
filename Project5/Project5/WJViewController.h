@@ -6,14 +6,18 @@
 //  Copyright (c) 2013 General UI, LLC. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
-@interface WJViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
-{
-    IBOutlet UIPickerView *typePicker;
-    IBOutlet UIPickerView *datePicker;
-}
+@interface WJViewController : UIViewController <UICollectionViewDataSource>
 
+-(NSString *) GetCurrentMonth;
+-(int) GetCurrentMonthInteger;
+-(void)SetCurrentMonth: (int)month;
+-(int)monthsTable;
+-(int)dayInMonths;
+
+@property (nonatomic, weak) IBOutlet UICollectionView *cView;
 @property (strong, nonatomic) NSMutableDictionary *currentForecast;
 
 
