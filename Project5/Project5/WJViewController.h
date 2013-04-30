@@ -11,11 +11,15 @@
 
 @interface WJViewController : UIViewController <UICollectionViewDataSource>
 
+
+
 -(NSString *) GetCurrentMonth;
 -(int) GetCurrentMonthInteger;
 -(void)SetCurrentMonth: (int)month;
 -(int)monthsTable;
 -(int)dayInMonths;
+
+
 
 @property (nonatomic, weak) IBOutlet UICollectionView *cView;
 @property (strong, nonatomic) NSMutableDictionary *currentForecast;

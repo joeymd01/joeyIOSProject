@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430879DD172A1C6300282F43 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 435438DB1721DEF20000B058 /* SubView.m */; };
+		430879E0172A29ED00282F43 /* x-mark-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 430879DF172A29ED00282F43 /* x-mark-16.png */; };
 		434A0B1B16DF3A9400EB439B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A0B1A16DF3A9400EB439B /* UIKit.framework */; };
 		434A0B1D16DF3A9400EB439B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A0B1C16DF3A9400EB439B /* Foundation.framework */; };
 		434A0B1F16DF3A9400EB439B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A0B1E16DF3A9400EB439B /* CoreGraphics.framework */; };
@@ -18,11 +20,12 @@
 		434A0B3F16DF3A9400EB439B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A0B1A16DF3A9400EB439B /* UIKit.framework */; };
 		434A0B4016DF3A9400EB439B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434A0B1C16DF3A9400EB439B /* Foundation.framework */; };
 		434A0B5A16DF3AE000EB439B /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5616DF3AE000EB439B /* WJAppDelegate.m */; };
-		434A0B5B16DF3AE000EB439B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */; };
 		434A0B5C16DF3AE000EB439B /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5916DF3AE000EB439B /* WJViewController.m */; };
 		434A0B5E16DF3F0C00EB439B /* WJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5616DF3AE000EB439B /* WJAppDelegate.m */; };
 		434A0B5F16DF3F1200EB439B /* WJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 434A0B5916DF3AE000EB439B /* WJViewController.m */; };
-		434A0B6016DF3F3100EB439B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */; };
+		435438DC1721DEF20000B058 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 435438DB1721DEF20000B058 /* SubView.m */; };
+		4395DAC11715252000803D3E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4395DAC01715252000803D3E /* MainStoryboard.storyboard */; };
+		43C16AD8170F1C6E0014C6E0 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C16AD7170F1C6E0014C6E0 /* detailViewController.m */; };
 		43DDF70716FE31FD004F15F7 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DDF70616FE31FD004F15F7 /* CellView.m */; };
 		43DDF71316FF8C66004F15F7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DDF71216FF8C66004F15F7 /* MainViewController.m */; };
 		43DDF71516FFB3F2004F15F7 /* partly-cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = 43DDF71416FFB3F2004F15F7 /* partly-cloudy.png */; };
@@ -49,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		430879DF172A29ED00282F43 /* x-mark-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-mark-16.png"; sourceTree = "<group>"; };
 		434A0B1616DF3A9400EB439B /* Project5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434A0B1A16DF3A9400EB439B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		434A0B1C16DF3A9400EB439B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +67,13 @@
 		434A0B3C16DF3A9400EB439B /* Project5Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project5Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		434A0B5516DF3AE000EB439B /* WJAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJAppDelegate.h; sourceTree = "<group>"; };
 		434A0B5616DF3AE000EB439B /* WJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJAppDelegate.m; sourceTree = "<group>"; };
-		434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		434A0B5816DF3AE000EB439B /* WJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJViewController.h; sourceTree = "<group>"; };
 		434A0B5916DF3AE000EB439B /* WJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJViewController.m; sourceTree = "<group>"; };
+		435438DA1721DEF20000B058 /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		435438DB1721DEF20000B058 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		4395DAC01715252000803D3E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		43C16AD6170F1C6E0014C6E0 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		43C16AD7170F1C6E0014C6E0 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 		43DDF70516FE31FD004F15F7 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
 		43DDF70616FE31FD004F15F7 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
 		43DDF71116FF8C66004F15F7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -138,11 +146,15 @@
 		434A0B2216DF3A9400EB439B /* Project5 */ = {
 			isa = PBXGroup;
 			children = (
+				435438DA1721DEF20000B058 /* SubView.h */,
+				435438DB1721DEF20000B058 /* SubView.m */,
 				43DDF70516FE31FD004F15F7 /* CellView.h */,
 				43DDF70616FE31FD004F15F7 /* CellView.m */,
 				434A0B5516DF3AE000EB439B /* WJAppDelegate.h */,
 				434A0B5616DF3AE000EB439B /* WJAppDelegate.m */,
-				434A0B5716DF3AE000EB439B /* MainStoryboard.storyboard */,
+				43C16AD6170F1C6E0014C6E0 /* detailViewController.h */,
+				43C16AD7170F1C6E0014C6E0 /* detailViewController.m */,
+				4395DAC01715252000803D3E /* MainStoryboard.storyboard */,
 				43DDF72C17025338004F15F7 /* dayOfWeekController.h */,
 				43DDF72D17025338004F15F7 /* dayOfWeekController.m */,
 				43DDF71116FF8C66004F15F7 /* MainViewController.h */,
@@ -160,6 +172,7 @@
 				43DDF728170233B8004F15F7 /* arrow_right.png */,
 				43DDF729170233B8004F15F7 /* arrow_left.png */,
 				43DDF7221701F3EE004F15F7 /* partly-cloudy@2x.png */,
+				430879DF172A29ED00282F43 /* x-mark-16.png */,
 				43DDF7201701F3C7004F15F7 /* cloudy@2x.png */,
 				43DDF71E1701F38C004F15F7 /* sunny@2x.png */,
 				43DDF71C16FFB922004F15F7 /* cloudy.png */,
@@ -253,7 +266,6 @@
 				434A0B2F16DF3A9400EB439B /* Default.png in Resources */,
 				434A0B3116DF3A9400EB439B /* Default@2x.png in Resources */,
 				434A0B3316DF3A9400EB439B /* Default-568h@2x.png in Resources */,
-				434A0B6016DF3F3100EB439B /* MainStoryboard.storyboard in Resources */,
 				43DDF71516FFB3F2004F15F7 /* partly-cloudy.png in Resources */,
 				43DDF71716FFB402004F15F7 /* rainy.png in Resources */,
 				43DDF71916FFB40D004F15F7 /* snow.png in Resources */,
@@ -264,6 +276,8 @@
 				43DDF7231701F3EE004F15F7 /* partly-cloudy@2x.png in Resources */,
 				43DDF72A170233B8004F15F7 /* arrow_right.png in Resources */,
 				43DDF72B170233B8004F15F7 /* arrow_left.png in Resources */,
+				4395DAC11715252000803D3E /* MainStoryboard.storyboard in Resources */,
+				430879E0172A29ED00282F43 /* x-mark-16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434A0B5B16DF3AE000EB439B /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430879DD172A1C6300282F43 /* SubView.m in Sources */,
 				434A0B2916DF3A9400EB439B /* main.m in Sources */,
 				434A0B5E16DF3F0C00EB439B /* WJAppDelegate.m in Sources */,
 				434A0B5F16DF3F1200EB439B /* WJViewController.m in Sources */,
 				43DDF70716FE31FD004F15F7 /* CellView.m in Sources */,
 				43DDF71316FF8C66004F15F7 /* MainViewController.m in Sources */,
 				43DDF72E17025339004F15F7 /* dayOfWeekController.m in Sources */,
+				43C16AD8170F1C6E0014C6E0 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +328,7 @@
 			files = (
 				434A0B5A16DF3AE000EB439B /* WJAppDelegate.m in Sources */,
 				434A0B5C16DF3AE000EB439B /* WJViewController.m in Sources */,
+				435438DC1721DEF20000B058 /* SubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

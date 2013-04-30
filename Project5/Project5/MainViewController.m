@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "WJViewController.h"
 #import "dayOfWeekController.h"
+#import "detailViewController.h"
 
 @interface MainViewController ()
 
@@ -17,6 +18,7 @@
 @implementation MainViewController
 
 WJViewController *childViewController;
+UINavigationController *nav;
 dayOfWeekController *childDOW;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -50,6 +52,9 @@ dayOfWeekController *childDOW;
     
     [self.view addSubview:childViewController.view];
     
+    
+    
+        
     [monthLabel setText:[childViewController GetCurrentMonth]];
     
     
@@ -75,12 +80,12 @@ dayOfWeekController *childDOW;
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle: nil];
     childViewController = (WJViewController*)[mainStoryboard instantiateViewControllerWithIdentifier: @"childviewcontroller"];
     
+    
     [self addChildViewController:childViewController];
     
     childViewController.view.frame = CGRectMake(0, 65, childViewController.view.frame.size.width, childViewController.view.frame.size.height);
     
-    [self.view addSubview:childViewController.view];
-    //[next setBackgroundColor:[UIColor whiteColor]];
+    [self.view addSubview:childViewController.view];    //[next setBackgroundColor:[UIColor whiteColor]];
 
     
 }
@@ -98,5 +103,7 @@ dayOfWeekController *childDOW;
     
     [self.view addSubview:childViewController.view];
 }
+
+
 
 @end

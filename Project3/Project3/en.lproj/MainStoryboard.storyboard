@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3103" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="5">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HLa-sL-Xw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="972" y="-618"/>
+            <point key="canvasLocation" x="964" y="-606"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="foQ-c0-J13">
@@ -428,10 +428,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="EvW-Hx-MIQ"/>
-        <segue reference="0Pm-5d-sXy"/>
-        <segue reference="Voq-7B-BuR"/>
         <segue reference="b5D-TJ-w4m"/>
+        <segue reference="zJu-qw-Eab"/>
+        <segue reference="JDz-ZI-3Cq"/>
+        <segue reference="iQd-8w-BVI"/>
         <segue reference="kr3-vd-sg8"/>
     </inferredMetricsTieBreakers>
 </document>
