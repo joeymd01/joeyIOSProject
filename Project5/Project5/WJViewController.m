@@ -10,6 +10,11 @@
 // in the background (inside refreshWeather). Call [picker reloadAllComponents] when it's done.
 // And then display the weather prediction in a text view... 85%.
 
+// Final project: Good work with the graphics and controls. The labels in your detail page
+// are maybe a bit confusing at first, but what weather app isn't?
+// Project grade: 100%
+// Course grade: 100%
+
 #import "WJViewController.h"
 #import "detailViewController.h"
 #import "CellView.h"
